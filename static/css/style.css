@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    user-select: none;
+}
+
+html{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ul,li{
+    list-style: none;
+} */
+
+input{
+    outline: none;
+    background: none;
+}
+
+.empty{
+    width: 100%;
+    height: 10rem;
+}
+
+:root {
+  --color-bg-main: #e0e3e7;         
+  --color-bg-soft-gray: #cfd4da;    
+  --color-bg-muted-blue: #a3b1c6;  
+
+  --color-dark-soft: #2e2e33;       
+  --color-dark-grayish: #44484d;    
+
+  --color-text-glow: #00bcd4;  
+  --color-text-accent: #ffd54f;    
+  --color-text-soft-white: #f0f0f5; 
+  --bg-main: #222831;     
+  --bg-main-1: #2228318c;     
+
+  --color-accent-blue: #607d8b;    
+  --color-accent-purple: #9fa8da; 
+}  
+
+
+body{
+    background-color: var(--bg-main);
+}
+
+.nav-con{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-dark-soft);
+    position: fixed;
+    z-index: 9999;
+}
+
+.menu{
+    width: auto;
+    height: 8rem;
+    display: flex;
+    float: row;
+    align-items: center;
+    color: var(--color-text-accent);
+}
+
+.menu p{
+    font-size: 2.4rem;
+}
+
+.icon{
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    gap: .5rem;
+    height: 8rem;
+    align-items: center;
+}
+
+.links a{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    color: var(--color-text-accent);
+    font-size: 2.4rem;
+    background-color: var(--bg-main);
+    border-radius: 5rem;
+}
+
+.threePoint{
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: var(--color-text-accent);
+}
+
+#isActive{
+    border-bottom: solid 1px var(--color-accent-blue);
+    background-color: var(--bg-main-1);
+}
+
+/* ---------------------- */
+
+.card-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cards{
+    width: 100rem;
+    height: auto;
+    flex-direction: column;
+}
+
+.card{
+    width: 100%;
+    height: 20rem;
+    /* background-color: var(--color-accent-purple); */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img{
+    width: 20rem ;
+    height: 20rem;
+}
+
+.img img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.text{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    width: 100%;
+    height: auto;
+}
+
+.title p{
+    font-size: 2.4rem;
+    color: var(--color-text-accent);
+
+}
+
+.anons{
+    width: 100%;
+    height: auto;
+}
+
+.anons p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--color-accent-purple);
+}
+
+.anons div{
+    font-size: 1.6rem;
+    color: var(--color-accent-blue);
+}
+
+/* contact me */
+
+.contctme-con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contactme{
+    width: 100rem;
+    height: auto;
+}
+
+.contactme-title{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-accent);
+    font-size: 2.4rem;
+}
+
+form{
+    width: 100%;
+    min-height: 20rem;
+    margin-top: 3rem;
+    border-top: solid 1px var(--color-accent-blue);
+
+}
+.cm-name{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+
+.cm-email{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
+.cm-name span,.cm-email span{
+    width: 100%;
+    font-size: 1.8rem;
+    color: var(--color-accent-blue);
+}
+
+input{
+    width: 100%;
+    outline: none;
+    background:none;
+    padding: .5rem;
+    color: var(--color-bg-main);
+    border: solid 1px var(--color-accent-blue);
+    margin-top: .6rem;
+    background-color: var(--color-dark-grayish);
+    border-radius: 1rem;
+}
+
+::placeholder{
+    color: var(--color-bg-main);
+}
+
+textarea{
+    min-width: 100rem;
+    max-width: 100rem;
+    min-height: 3rem;
+    outline: none;
+    border: solid 1px var(--color-accent-blue);
+    margin-top: 1rem;
+    background-color: var(--color-dark-grayish);
+    padding: .5rem;
+    color: var(--color-bg-soft-gray);
+    border-radius: 1rem;
+}
+
+button{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: .5rem;
+    background-color: var(--color-dark-grayish);
+    color: var(--color-accent-blue);
+    font-size: 1.8rem;
+    border: solid 1px var(--color-accent-blue);
+    border-radius: 1rem;
+}
+
+/* succesfull */
+
+.succesful{
+    width: 100%;
+    height: 100%;
+    background-color:#222831d3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.messagebox{
+    width: 40rem;
+    height: 43rem;
+    background-color: var(--color-dark-grayish);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgmsg{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgmsg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.messagebox p{
+    width: 100%;
+    height: 5rem;
+    font-size: 2.4rem;
+    color: var(--color-text-accent);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+body.modal-open{
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.solidbar{
+    width: 30rem;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    background-color: var(--color-dark-grayish);
+    display: none;
+    padding: 1rem;
+}
+
+.solidbar-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.solidbar-con div{
+    width: 100%;
+    height: 3rem;
+    color: var(--color-bg-main);
+    font-size: 1.8rem;
+    padding: .5rem;
+    background-color: #607d8b5d;
+    display: flex;
+    gap: 1rem;
+}

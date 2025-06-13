@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatigSh</title>
+    <link rel="stylesheet" href="../static/css/loginre.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <section class="nav-con">
+        <div class="menu" id="menu">
+            <div class="icon" id="menuIcon">
+                <ion-icon name="menu-sharp"></ion-icon>
+            </div>
+            <p name="DeskropDesign">NatigShukurov</p>
+        </div>
+        <div class="links">
+            <a href="../index.html">Blog</a>
+            <a href="about.html" > My About</a>
+            <a href="../templates/loginre.html" id="isActive">Login|Register</a>
+        </div>
+        <div class="threePoint">
+            <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
+        </div>
+    </section>
+    <section class="empty"></section>
+
+    <div class="login-container">
+        <div class="login" id="islogin-re-active">
+            <div class="login-title">
+                <a href="../templates/login.html" id="isactivelog">Login </a>| <a href="../templates/loginre.html" > Register</a>
+            </div>
+            <form method="get">
+                <div class="email">
+                    <span>Email</span>
+                    <input type="email" placeholder="Email unvanınızı daxil edin..." required id="emailInput">
+                </div>
+                <div class="password" >
+                    <span>Şifrə</span>
+                    <div class="input">
+                        <input type="password" placeholder="Şifrə təyin edin..." id="passwordInput1" required itemid="passwordInput">
+                        <div class="eye"><ion-icon name="eye-outline" id="toggleEye1"></ion-icon></div>
+                    </div>
+                </div>
+              
+                <button id="sendMsg">Davam Et</button>
+            </form>
+        </div>
+    </div>
+
+
+    <section class="succesful" id="succesfulCon">
+        <div class="messagebox">
+            <div class="imgmsg">
+                <img src="../static/img/check.gif" alt="">
+            </div>
+            <p>
+                Siz artıq daxil olmusunuz!!!
+            </p>
+            
+        </div>
+    </section>
+        <section class="solidbar" id="solidbar">
+        <div class="solidbar-con" id="sb-con">
+            <div><p>Blog yazın.</p><ion-icon name="create-outline"></ion-icon></div>
+            <div><p>Çıxış edin.</p><ion-icon name="exit-outline"></ion-icon></div>
+        </div>
+    </section>
+
+    <script src="../static/js/loginre.js"></script>
+    <script src="../static/js/succesful.js"></script>
+</body>
+
+</html>
