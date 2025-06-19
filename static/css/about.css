@@ -12,6 +12,7 @@ html{
 
 a{
     text-decoration: none;
+    color: var(--color-bg-soft-gray);
 }
 
 /* ul,li{
