@@ -146,6 +146,13 @@ input {
     color: var(--color-text-accent);
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.login-title p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .login-title a {
@@ -164,6 +171,10 @@ form {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
+}
+
+.login-container form button {
+    font-size: 1.8rem;
 }
 
 .email input {
@@ -335,11 +346,13 @@ a {
     .icon {
         width: 6rem;
         height: 6rem;
-    } 
+    }
+
     .threePoint {
         width: 6rem;
         height: 6rem;
     }
+
     .login {
         width: 60rem;
         height: auto;
@@ -355,15 +368,18 @@ a {
     .icon {
         width: 6rem;
         height: 6rem;
-    } 
+    }
+
     .threePoint {
         width: 6rem;
         height: 6rem;
     }
+
     .login {
         width: 40rem;
         height: auto;
     }
+
     .empty {
         height: 5px;
     }
@@ -387,6 +403,7 @@ a {
         width: 30rem;
         height: auto;
     }
+
 }
 
 @media only screen and (max-width:900px) {

@@ -241,4 +241,5 @@ body{
     background-color: #607d8b5d;
     display: flex;
     gap: 1rem;
+    justify-content: space-between;
 }

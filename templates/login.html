@@ -19,33 +19,35 @@
         </div>
         <div class="links">
             <a href="../index.html">Blog</a>
-            <a href="about.html" > My About</a>
+            <a href="about.html"> My About</a>
             <a href="../templates/loginre.html" id="isActive">Login|Register</a>
         </div>
         <div class="threePoint">
             <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
         </div>
     </section>
-    <section class="empty"></section>
+    <section class="empty" id="first-empty"></section>
 
     <div class="login-container">
         <div class="login" id="islogin-re-active">
             <div class="login-title">
-                <a href="../templates/login.html" id="isactivelog">Login </a>| <a href="../templates/loginre.html" > Register</a>
+                <a href="../templates/login.html" id="isactivelog">Login </a>| <a href="../templates/loginre.html">
+                    Register</a>
             </div>
             <form method="get">
                 <div class="email">
                     <span>Email</span>
                     <input type="email" placeholder="Email unvanınızı daxil edin..." required id="emailInput">
                 </div>
-                <div class="password" >
+                <div class="password">
                     <span>Şifrə</span>
                     <div class="input">
-                        <input type="password" placeholder="Şifrə təyin edin..." id="passwordInput1" required itemid="passwordInput">
+                        <input type="password" placeholder="Şifrə təyin edin..." id="passwordInput1" required
+                            itemid="passwordInput">
                         <div class="eye"><ion-icon name="eye-outline" id="toggleEye1"></ion-icon></div>
                     </div>
                 </div>
-              
+
                 <button id="sendMsg">Davam Et</button>
             </form>
         </div>
@@ -60,13 +62,22 @@
             <p>
                 Siz artıq daxil olmusunuz!!!
             </p>
-            
+
         </div>
     </section>
-        <section class="solidbar" id="solidbar">
+    <section class="solidbar" id="solidbar">
         <div class="solidbar-con" id="sb-con">
             <div><a href="blokedit.html">Blog yazın.</a><ion-icon name="create-outline"></ion-icon></div>
-            <div><a href="#">Çıxış edin.</a><ion-icon name="exit-outline"></ion-icon></div>
+            <div><a href="../templates/logout.html">Çıxış edin.</a><ion-icon name="exit-outline"></ion-icon></div>
+            <div class="linksresponsive">
+                <a href="../index.html">Blog</a>
+            </div>
+            <div class="linksresponsive">
+                <a href="loginre.html">Login|Register</a>
+            </div>
+            <div class="linksresponsive">
+                <a href="about.html"> My About</a>
+            </div>
         </div>
     </section>
 
