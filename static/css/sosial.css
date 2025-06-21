@@ -382,6 +382,7 @@ body.modal-open {
 
     .sosial-card {
         max-width: 40rem;
+        gap: .5rem;
     }
 
     .icon_sosial_card {
@@ -445,6 +446,7 @@ body.modal-open {
 
     .sosial-card {
         max-width: 30rem;
+        gap: .5rem;
     }
 
     .title-card{
@@ -488,6 +490,7 @@ body.modal-open {
 @media only screen and (max-width:300px) {
     .sosial-card{
         width: 28rem;
+        gap: .5rem;
     }
 }
 
