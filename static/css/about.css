@@ -236,7 +236,7 @@ body {
     gap: 1rem;
 }
 
-.solidbar-con div {
+.div {
     width: 100%;
     height: 3rem;
     color: var(--color-bg-main);
@@ -247,6 +247,18 @@ body {
     gap: 1rem;
     justify-content: space-between;
 }
+
+.linksresponsive {
+    display: none;
+    width: 100%;
+    height: 3rem;
+    color: var(--color-bg-main);
+    font-size: 1.8rem;
+    padding: .5rem;
+    background-color: #607d8b5d;
+    gap: 1rem;
+}
+
 
 @media only screen and (max-width:1100px) {
 

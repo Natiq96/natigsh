@@ -1,0 +1,36 @@
+:root {
+    --color-bg-main: #e0e3e7;
+    --color-bg-soft-gray: #cfd4da;
+    --color-bg-muted-blue: #a3b1c6;
+
+    --color-dark-soft: #2e2e33;
+    --color-dark-grayish: #44484d;
+
+    --color-text-glow: #00bcd4;
+    --color-text-accent: #ffd54f;
+    --color-text-soft-white: #f0f0f5;
+    --bg-main: #222831;
+    --bg-main-1: #2228318c;
+
+    --color-accent-blue: #607d8b;
+    --color-accent-purple: #9fa8da;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-grayish);
+  border-radius: 10px;
+  border: 2px solid var(--bg-main); 
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-purple);
+}

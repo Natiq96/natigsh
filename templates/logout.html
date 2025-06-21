@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NatigSh</title>
     <link rel="stylesheet" href="../static/css/logout.css">
+    <link rel="stylesheet" href="../static/css/scrolbar.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
@@ -19,8 +20,8 @@
         </div>
         <div class="links">
             <a href="../index.html">Blog</a>
-            <a href="about.html" > My About</a>
-            <a href="loginre.html" id="isActive">Login|Register</a>
+            <a href="about.html"> My About</a>
+            <a href="loginre.html" >Login|Register</a>
         </div>
         <div class="threePoint">
             <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
@@ -31,21 +32,22 @@
     <div class="login-container">
         <div class="login" id="islogin-re-active">
             <div class="login-title">
-                <p  id="isactivelog">LogOut<ion-icon name="log-out-outline"></ion-icon> </p>
+                <p id="isactivelog">LogOut<ion-icon name="log-out-outline"></ion-icon> </p>
             </div>
             <form method="get">
                 <div class="email">
                     <span>Email</span>
                     <input type="email" placeholder="Email unvanınızı daxil edin..." required id="emailInput">
                 </div>
-                <div class="password" >
+                <div class="password">
                     <span>Şifrə</span>
                     <div class="input">
-                        <input type="password" placeholder="Şifrəni daxil edin!" id="passwordInput1" required itemid="passwordInput">
+                        <input type="password" placeholder="Şifrəni daxil edin!" id="passwordInput1" required
+                            itemid="passwordInput">
                         <div class="eye"><ion-icon name="eye-outline" id="toggleEye1"></ion-icon></div>
                     </div>
                 </div>
-              
+
                 <button id="sendMsg">LogOut<ion-icon name="log-out-outline"></ion-icon></button>
             </form>
         </div>
@@ -60,13 +62,16 @@
             <p>
                 Siz artıq daxil olmusunuz!!!
             </p>
-            
+
         </div>
     </section>
-        <section class="solidbar" id="solidbar">
+    <section class="solidbar" id="solidbar">
         <div class="solidbar-con" id="sb-con">
-            <div><a href="blokedit.html">Blog yazın.</a><ion-icon name="create-outline"></ion-icon></div>
-            <div><a href="logout.html">Çıxış edin.</a><ion-icon name="exit-outline"></ion-icon></div>
+            <div class="div"><a href="blokedit.html">Blog yazın.</a><ion-icon name="create-outline"></ion-icon></div>
+            <div class="div"><a href="logout.html">Çıxış edin.</a><ion-icon name="exit-outline"></ion-icon></div>
+            <div class="div">
+                <a href="./sosial.html">Sosial şəbəkələr</a>
+            </div>
             <div class="linksresponsive">
                 <a href="../index.html">Blog</a>
             </div>
